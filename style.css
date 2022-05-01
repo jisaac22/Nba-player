@@ -1,0 +1,59 @@
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.srchCtner2{
+
+  width: 20%;
+}
+
+.input {
+  width: 65%;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.infoBody{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoContainer{
+  margin-top: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  /* border: 2px black solid; */
+  border-radius: 20px;
+  box-shadow: 0 0 10px;
+}
+
+img{
+
+border-bottom: 4px black solid;
+border-radius: 15px;
+}
+.stats:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
