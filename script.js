@@ -28,7 +28,7 @@ searchBtn.addEventListener('click', function () {
 	let playerSearch = input.value
 	let arrayPlayerSearch = playerSearch.split(' ')
 
-	return fetch('http://data.nba.net/data/10s/prod/v1/2021/players.json')
+	return fetch('https://data.nba.net/data/10s/prod/v1/2021/players.json')
 		.then(function (response) {
 			return response.json()
 		}).then(function (data) {
