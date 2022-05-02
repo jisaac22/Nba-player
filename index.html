@@ -5,19 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>NBA</title>
 </head>
 <body>
   <div class="searchContainer">
     <div class="srchCtner2">
       <div>
-        <h2>Search Player</h2>
+        <h2 class="title">Search Player</h2>
       </div>
       <div>
-        <input id="input" class="input" placeholder="Search full name e.g 'Lebron James' ">
+        <input id="input" class="input" placeholder="Search full name e.g 'Lebron James'">
+        <button id="btn" type="submit" class="btn fa fa-search"></button>
       </div>
       <div>
-        <button id='btn' class="btn">Player Search</button>
+  
       </div>
     </div>
   </div>
@@ -27,18 +29,17 @@
         <div class="nameInfo">
           <h3></h3>
         </div>
-        <img>
+        <div class="image">
+          <img class="playerImage">
+        </div>
         <div>
           <div class="nameInfo" >
-            <p></p>
+            <h2 class="number"></h2>
           </div>
           <div class="nameInfo">
             <p class="stats">Stats</p>
           </div>
         </div>
-        
-        
-
           <p class="gamesPlayed"></p>
           <p class="seasonPts"></p>
           <p class="seasonAst"></p>

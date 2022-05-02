@@ -2,7 +2,7 @@ const searchBtn = document.getElementById('btn');
 const input = document.getElementById('input');
 let image = document.querySelector('img')
 let playerName = document.querySelector('h3')
-let playNumber = document.querySelector('p')
+let playNumber = document.querySelector('.number')
 const stats = document.querySelector('.stats')
 const gamesPlayed = document.querySelector('.gamesPlayed')
 const seasonPts = document.querySelector('.seasonPts')
@@ -94,3 +94,18 @@ console.log(arrayPlayerSearch)
 })
 
 
+// fetch("https://www.balldontlie.io/api/v1/teams")
+// .then(function(response){
+// 	return response.json()
+// })
+// .then(function(data){
+// 	console.log(data)
+// })
+
+// fetch("https://www.balldontlie.io/api/v1/games?page=2&per_page=100&seasons[]=2013&team_ids[]=27")
+// .then(function(response){
+// 	return response.json()
+// })
+// .then(function(data){
+// 	console.log(data)
+// })

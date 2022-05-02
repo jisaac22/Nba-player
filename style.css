@@ -1,3 +1,11 @@
+body{
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.title {
+  color: white;
+  margin-left: 25%;
+}
 .searchContainer {
   display: flex;
   justify-content: center;
@@ -5,15 +13,23 @@
 }
 
 .srchCtner2{
-
   width: 20%;
 }
 
+
 .input {
-  width: 65%;
-  font-size: 15px;
+  width: 90%;
+  font-size: 20px;
   margin-bottom: 15px;
   border-radius: 4px;
+  height: 40px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 40%;
 }
 
 .infoBody{
@@ -38,15 +54,22 @@
 }
 
 .container2 {
-  /* border: 2px black solid; */
+  border: 1px white solid;
+  background-color: darkgray;
+  width: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 20px white;
 }
 
-img{
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-border-bottom: 4px black solid;
-border-radius: 15px;
+.playerImage{
+  border-bottom: 4px black solid;
+  border-radius: 15px;
 }
 .stats:hover{
   color: blue;
