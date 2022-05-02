@@ -48,13 +48,13 @@ searchBtn.addEventListener('click', function () {
 		})
 })
 
-
+const statsContainer = document.querySelector('.statsContainer')
 
 stats.addEventListener('click', function () {
+  statsContainer.classList.remove('hide')
 	let statsArray = []
 	let playerId;
-
-let playerSearch2 = localStorage.getItem('player')
+  let playerSearch2 = localStorage.getItem('player')
 console.log(playerSearch2)
 	let arrayPlayerSearch = playerSearch2.split(' ')
 console.log(arrayPlayerSearch)
@@ -84,10 +84,10 @@ console.log(arrayPlayerSearch)
 					return response.json()
 				}).then(function (data) {
 					console.log(data)
-					gamesPlayed.textContent = 'Games Played: ' + data.data[0].games_played
-					seasonPts.textContent = 'Points per game: ' + data.data[0].pts
-					seasonAst.textContent = 'Assist per game: ' + data.data[0].ast
-					seasonBlks.textContent = 'Blocks per game: ' + data.data[0].blk
+					gamesPlayed.textContent = data.data[0].games_played
+					seasonPts.textContent =  data.data[0].pts
+					seasonAst.textContent =  data.data[0].ast
+					seasonBlks.textContent = data.data[0].blk
 				})
 		})
 

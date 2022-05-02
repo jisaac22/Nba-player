@@ -71,8 +71,21 @@ body{
   border-bottom: 4px black solid;
   border-radius: 15px;
 }
+
+.statsContainer {
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats2 {
+  color: white;
+}
+
 .stats:hover{
-  color: blue;
+  font-size: 25px;
+  color: white;
   cursor: pointer;
 }
 
@@ -101,7 +114,7 @@ body{
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 844px){
+@media screen and (min-width: 390px) and (max-width: 1330x){
   .srchCtner2 {
    
     width: 50%;
