@@ -80,3 +80,30 @@ body{
   display: none;
 }
 
+@media screen and (min-width: 390px) and (max-width: 844px){
+
+
+
+
+  .srchCtner2 {
+   
+    width: 50%;
+  }
+
+  .title {
+    font-size: 15px;
+    color: black;
+    color: white;
+  }
+
+  .infoContainer{
+    width: 50%;
+  }
+
+  .playerImage{
+    width: 100%;
+  }
+  
+
+
+}
