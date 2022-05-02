@@ -93,10 +93,13 @@ body{
   display: none;
 }
 
-@media screen and (min-width: 270px) and (max-width: 844px){
+@media screen and (min-width: 270px) and (max-width: 390px){
   .srchCtner2 {
-   
     width: 50%;
+  }
+
+  .btn {
+    background-color: white;
   }
 
   .title {
