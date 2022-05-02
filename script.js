@@ -9,6 +9,7 @@ const seasonPts = document.querySelector('.seasonPts')
 const seasonAst = document.querySelector('.seasonAst')
 const seasonBlks = document.querySelector('.seasonBlks')
 const container = document.querySelector('.infoContainer')
+const year = document.querySelector('.year')
 
 searchBtn.addEventListener('click', function () {
   container.classList.remove('hide')
@@ -84,6 +85,7 @@ console.log(arrayPlayerSearch)
 					return response.json()
 				}).then(function (data) {
 					console.log(data)
+					year.textContent = data.data[0].season
 					gamesPlayed.textContent = data.data[0].games_played
 					seasonPts.textContent =  data.data[0].pts
 					seasonAst.textContent =  data.data[0].ast

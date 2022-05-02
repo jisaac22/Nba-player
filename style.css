@@ -31,8 +31,12 @@ body{
   border-radius: 10px;
   margin-left: 40%;
   background-color: white;
+  
 }
 
+.btn:hover {
+  box-shadow: 0 0 10px white;
+}
 .infoBody{
   margin-top: 20px;
   display: flex;
