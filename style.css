@@ -63,7 +63,19 @@ body{
   background-color: darkgray;
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 15px white;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flash {
+  25% {box-shadow: 0 0 15px black;}
+ 50% {box-shadow: 0 0 15px white;}
+ 75% {box-shadow: 0 0 15px black;}
+ 100% {box-shadow: 0 0 15px white;}
+  
 }
 
 .image {
