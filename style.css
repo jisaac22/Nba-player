@@ -30,6 +30,7 @@ body{
   padding: 10px;
   border-radius: 10px;
   margin-left: 40%;
+  background-color: white;
 }
 
 .infoBody{
@@ -93,7 +94,7 @@ body{
   display: none;
 }
 
-@media screen and (min-width: 270px) and (max-width: 390px){
+@media screen  and (max-width: 500px){
   .srchCtner2 {
     width: 50%;
   }
@@ -117,10 +118,14 @@ body{
   }
 }
 
-@media screen and (min-width: 390px) and (max-width: 1330x){
+@media screen and (max-width: 1330px){
   .srchCtner2 {
    
     width: 50%;
+  }
+
+  .btn{
+    background-color: white;
   }
 
   .title {
@@ -130,7 +135,7 @@ body{
   }
 
   .infoContainer{
-    width: 50%;
+    width: 20%;
   }
 
   .playerImage{
