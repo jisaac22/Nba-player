@@ -80,7 +80,7 @@ body{
   display: none;
 }
 
-@media screen and (min-width: 280px) and (max-width: 844px){
+@media screen and (min-width: 270px) and (max-width: 844px){
   .srchCtner2 {
    
     width: 50%;
