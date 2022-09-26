@@ -94,20 +94,3 @@ console.log(arrayPlayerSearch)
 		})
 
 })
-
-
-// fetch("https://www.balldontlie.io/api/v1/teams")
-// .then(function(response){
-// 	return response.json()
-// })
-// .then(function(data){
-// 	console.log(data)
-// })
-
-// fetch("https://www.balldontlie.io/api/v1/games?page=2&per_page=100&seasons[]=2013&team_ids[]=27")
-// .then(function(response){
-// 	return response.json()
-// })
-// .then(function(data){
-// 	console.log(data)
-// })
